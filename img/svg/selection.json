@@ -1,0 +1,252 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M1024 608l-192-192v-288h-128v160l-192-192-512 512v32h128v320h320v-192h128v192h320v-320h128z"
+        ],
+        "tags": [
+          "home",
+          "house"
+        ],
+        "defaultCode": 59650,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "home3, house3",
+        "name": "home3",
+        "order": 8,
+        "id": 3,
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 2
+    },
+    {
+      "icon": {
+        "paths": [
+          "M959.884 128c0.040 0.034 0.082 0.076 0.116 0.116v767.77c-0.034 0.040-0.076 0.082-0.116 0.116h-895.77c-0.040-0.034-0.082-0.076-0.114-0.116v-767.772c0.034-0.040 0.076-0.082 0.114-0.114h895.77zM960 64h-896c-35.2 0-64 28.8-64 64v768c0 35.2 28.8 64 64 64h896c35.2 0 64-28.8 64-64v-768c0-35.2-28.8-64-64-64v0z",
+          "M832 288c0 53.020-42.98 96-96 96s-96-42.98-96-96 42.98-96 96-96 96 42.98 96 96z",
+          "M896 832h-768v-128l224-384 256 320h64l224-192z"
+        ],
+        "tags": [
+          "image",
+          "picture",
+          "photo",
+          "graphic"
+        ],
+        "defaultCode": 59661,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "image, picture",
+        "name": "image",
+        "order": 7,
+        "id": 14,
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 13
+    },
+    {
+      "icon": {
+        "width": 1280,
+        "paths": [
+          "M640 576c105.87 0 201.87 43.066 271.402 112.598l-90.468 90.468c-46.354-46.356-110.356-75.066-180.934-75.066s-134.578 28.71-180.934 75.066l-90.468-90.468c69.532-69.532 165.532-112.598 271.402-112.598zM187.452 507.452c120.88-120.88 281.598-187.452 452.548-187.452s331.668 66.572 452.55 187.452l-90.51 90.508c-96.706-96.704-225.28-149.96-362.040-149.96-136.762 0-265.334 53.256-362.038 149.962l-90.51-90.51zM988.784 134.438c106.702 45.132 202.516 109.728 284.782 191.996v0l-90.508 90.508c-145.056-145.056-337.92-224.942-543.058-224.942-205.14 0-398 79.886-543.058 224.942l-90.51-90.51c82.268-82.266 178.082-146.862 284.784-191.994 110.504-46.738 227.852-70.438 348.784-70.438s238.278 23.7 348.784 70.438zM576 896c0-35.346 28.654-64 64-64s64 28.654 64 64c0 35.346-28.654 64-64 64s-64-28.654-64-64z"
+        ],
+        "tags": [
+          "connection",
+          "wifi",
+          "wave"
+        ],
+        "defaultCode": 59675,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "connection, wifi",
+        "name": "connection",
+        "order": 3,
+        "id": 28,
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 27
+    },
+    {
+      "icon": {
+        "paths": [
+          "M928 128h-832c-52.8 0-96 43.2-96 96v576c0 52.8 43.2 96 96 96h832c52.8 0 96-43.2 96-96v-576c0-52.8-43.2-96-96-96zM96 192h832c17.346 0 32 14.654 32 32v96h-896v-96c0-17.346 14.654-32 32-32zM928 832h-832c-17.346 0-32-14.654-32-32v-288h896v288c0 17.346-14.654 32-32 32zM128 640h64v128h-64zM256 640h64v128h-64zM384 640h64v128h-64z"
+        ],
+        "tags": [
+          "credit-card",
+          "money",
+          "payment",
+          "ecommerce"
+        ],
+        "defaultCode": 59711,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "credit-card, money5",
+        "name": "credit-card",
+        "order": 5,
+        "id": 64,
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 63
+    },
+    {
+      "icon": {
+        "paths": [
+          "M512 0c-282.77 0-512 229.23-512 512s229.23 512 512 512 512-229.23 512-512-229.23-512-512-512zM96 512c0-229.75 186.25-416 416-416 109.574 0 209.232 42.386 283.534 111.628l-411.534 176.372-176.372 411.534c-69.242-74.302-111.628-173.96-111.628-283.534zM585.166 585.166l-256.082 109.75 109.75-256.082 146.332 146.332zM512 928c-109.574 0-209.234-42.386-283.532-111.628l411.532-176.372 176.372-411.532c69.242 74.298 111.628 173.958 111.628 283.532 0 229.75-186.25 416-416 416z"
+        ],
+        "tags": [
+          "compass",
+          "direction",
+          "location"
+        ],
+        "defaultCode": 59722,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "compass2, direction2",
+        "name": "compass2",
+        "order": 6,
+        "id": 75,
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 74
+    },
+    {
+      "icon": {
+        "paths": [
+          "M658.744 749.256l-210.744-210.746v-282.51h128v229.49l173.256 173.254zM512 0c-282.77 0-512 229.23-512 512s229.23 512 512 512 512-229.23 512-512-229.23-512-512-512zM512 896c-212.078 0-384-171.922-384-384s171.922-384 384-384c212.078 0 384 171.922 384 384s-171.922 384-384 384z"
+        ],
+        "tags": [
+          "clock",
+          "time",
+          "schedule"
+        ],
+        "defaultCode": 59726,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "clock, time2",
+        "name": "clock",
+        "order": 4,
+        "id": 79,
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 78
+    },
+    {
+      "icon": {
+        "paths": [
+          "M864 128l-480 480-224-224-160 160 384 384 640-640z"
+        ],
+        "tags": [
+          "checkmark",
+          "tick",
+          "correct",
+          "accept",
+          "ok"
+        ],
+        "defaultCode": 59920,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "checkmark, tick",
+        "name": "checkmark",
+        "order": 2,
+        "id": 273,
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 272
+    },
+    {
+      "icon": {
+        "paths": [
+          "M896 0h-768c-70.4 0-128 57.6-128 128v768c0 70.4 57.6 128 128 128h768c70.4 0 128-57.6 128-128v-768c0-70.4-57.6-128-128-128zM448 794.51l-237.254-237.256 90.51-90.508 146.744 146.744 306.746-306.746 90.508 90.51-397.254 397.256z"
+        ],
+        "tags": [
+          "checkbox-checked",
+          "checkbox",
+          "tick",
+          "checked",
+          "selected"
+        ],
+        "defaultCode": 59986,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "checkbox-checked, checkbox",
+        "name": "checkbox-checked",
+        "order": 9,
+        "id": 339,
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 338
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}
