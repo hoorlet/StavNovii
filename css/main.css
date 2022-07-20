@@ -86,7 +86,7 @@ footer {
 }
 
 .section__fish {
-  padding-top: 0;
+  background-color: #3a5a40;
 }
 
 .section__pecul {
@@ -204,6 +204,65 @@ footer {
   margin-right: 15px;
 }
 
+.fish__list {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.fish__item:nth-child(-n + 4) {
+  margin-bottom: 30px;
+}
+
+.fish__item {
+  position: relative;
+}
+
+.fish__tumba {
+  margin-top: -5px;
+  padding: 10px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  background: #ffffff;
+}
+
+.fish__title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #fff;
+}
+
+.fish__text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.06em;
+  color: #fff;
+}
+
+.fishname__title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
 .container__footer {
   margin-left: auto;
   margin-right: auto;
@@ -296,12 +355,6 @@ footer {
           align-items: center;
 }
 
-@media screen and (max-width: 767px) {
-  .nav {
-    display: none;
-  }
-}
-
 .nav {
   margin-left: 93px;
   height: 100%;
@@ -345,7 +398,6 @@ footer {
   padding-top: 32px;
   padding-bottom: 32px;
   height: 100%;
-  color: var(--title-text-color);
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -430,41 +482,6 @@ footer {
   margin: 0;
   text-align: left;
   color: #020202;
-}
-
-@media (min-device-pixel-ratio: 2) and (max-width: 767px), (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px), (min-resolution: 192dpi) and (max-width: 767px), (min-resolution: 2dppx) and (max-width: 767px) {
-  .hero {
-    background-image: -webkit-gradient(linear, right top, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background/background-mobile@2x.jpg");
-    background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background/background-mobile@2x.jpg");
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hero {
-    background-image: -webkit-gradient(linear, right top, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background/background-tablet.jpg");
-    background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background/background-tablet.jpg");
-  }
-}
-
-@media (min-device-pixel-ratio: 2) and (min-width: 768px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), (min-resolution: 192dpi) and (min-width: 768px), (min-resolution: 2dppx) and (min-width: 768px) {
-  .hero {
-    background-image: -webkit-gradient(linear, right top, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background/background-tablet@2x.jpg");
-    background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background/background-tablet@2x.jpg");
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .hero {
-    background-image: -webkit-gradient(linear, right top, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background/background-desktop.jpg");
-    background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background/background-desktop.jpg");
-  }
-}
-
-@media (min-device-pixel-ratio: 2) and (min-width: 1200px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), (min-resolution: 192dpi) and (min-width: 1200px), (min-resolution: 2dppx) and (min-width: 1200px) {
-  .hero {
-    background-image: -webkit-gradient(linear, right top, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background/background-desktop@2x.jpg");
-    background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background/background-desktop@2x.jpg");
-  }
 }
 
 .pecul__list {
@@ -640,7 +657,7 @@ footer {
   color: #757575;
 }
 
-.price-wrap {
+.price__wrap {
   max-width: 1120px;
   margin: 0 auto;
   display: -webkit-box;
@@ -653,16 +670,16 @@ footer {
       flex-wrap: wrap;
 }
 
-.price-item {
+.price__item {
   padding: 10px;
 }
 
-.price-item-wrap {
+.price__item__wrap {
   background: #F7F7F2;
   position: relative;
 }
 
-.price-item-wrap:after {
+.price__item__wrap:after {
   content: "";
   position: absolute;
   top: 0;
@@ -679,37 +696,37 @@ footer {
   transition: .3s ease-in-out;
 }
 
-.price-item-wrap:hover:after {
+.price__item__wrap:hover:after {
   top: 5px;
   left: 5px;
   -webkit-transform: rotate(2deg);
           transform: rotate(2deg);
 }
 
-.price-link {
+.price__link {
   text-decoration: none;
   display: block;
   padding: 30px;
 }
 
-.price-title {
+.price__title {
   color: #33261D;
   margin-bottom: 15px;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
 }
 
-.price-item-wrap:hover .post-title {
+.price__item__wrap:hover .post-title {
   color: #212121;
 }
 
-.price-content {
+.price__content {
   color: #A69888;
   font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  .price-item {
+  .price__item {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     -ms-flex-negative: 0;
@@ -718,7 +735,7 @@ footer {
 }
 
 @media (min-width: 768px) and (min-width: 960px) {
-  .price-item {
+  .price__item {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
   }

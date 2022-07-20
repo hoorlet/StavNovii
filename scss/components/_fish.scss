@@ -64,3 +64,50 @@
 .feature__item:not(:last-child) {
   margin-right: 15px;
 }
+
+
+.fish__list {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.fish__item:nth-child(-n + 4) {
+  margin-bottom: 30px;
+}
+
+.fish__item {
+  position: relative;
+}
+.fish__tumba {
+  margin-top: -5px;
+  padding: 10px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  background: #ffffff;
+}
+.fish__title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #fff;
+}.fish__text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.06em;
+  color: #fff;
+}
+.fishname__title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
