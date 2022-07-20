@@ -16,6 +16,7 @@
 /******/ 			l: false,
 /******/ 			exports: {}
 /******/ 		};
+
 /******/
 /******/ 		// Execute the module function
 /******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
@@ -215,11 +216,12 @@ eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexport
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar preview_1 = __webpack_require__(/*! ../preview */ \"./src/preview/index.ts\");\nvar defaults = {\n    autoStartAtAlbum: 1,\n    autoStartAtItem: 1,\n    backgroundColor: '#000',\n    browserHistory: true,\n    canChangePreviewSize: true,\n    canMinimizeThumbnails: true,\n    decorators: [],\n    itemOnHide: function () { },\n    itemOnLoad: function () { },\n    itemOnShow: function () { },\n    navigationOnPreviewClick: true,\n    onChange: function () { },\n    previewSize: preview_1.Size.cover,\n    previewDraggable: true,\n    slideShow: true,\n    slideShowAutoStart: false,\n    slideShowInterval: 4000,\n    textColor: '#fff',\n    thumbnailHeight: '64px',\n    thumbnailHeightOnFullScreen: '128px',\n    thumbnailWidth: '64px',\n    thumbnailWidthOnFullScreen: '128px',\n    thumbnails: true,\n    thumbnailsFullScreen: true,\n    thumbnailsPosition: 'bottom',\n    thumbnailsVisible: true,\n    tooltipChangeSize: 'Change size',\n    tooltipSeeAllItems: 'See all items',\n    tooltipSeeOtherAlbums: 'See other albums',\n    tooltipSlideShowPause: 'Pause slide show',\n    tooltipSlideShowStart: 'Start slide show',\n    tooltipThumbnailsToggle: 'Toogle whumbnails',\n    transitionAnimateSliceHeight: false,\n    transitionAnimateSliceWidth: true,\n    transitionDetails: 1,\n    transitionDuration: 250,\n    transitionOpacity: false,\n    transitionOriginX: .5,\n    transitionOriginY: .5,\n    transitionXAxis: true,\n    transitionYAxis: false,\n    transitionEasingFunction: function (t) { return Math.sin(t * 1.5707963267948966); },\n};\nexports.default = defaults;\n\n\n//# sourceURL=webpack://JGallery/./src/gallery/defaults.ts?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar preview_1 = __webpack_require__(/*! ../preview */ \"./src/preview/index.ts\");\nvar defaults = {\n    autoStartAtAlbum: 1,\n    autoStartAtItem: 1,\n    backgroundColor: '#silver',\n    browserHistory: true,\n    canChangePreviewSize: true,\n    canMinimizeThumbnails: true,\n    decorators: [],\n    itemOnHide: function () { },\n    itemOnLoad: function () { },\n    itemOnShow: function () { },\n    navigationOnPreviewClick: true,\n    onChange: function () { },\n    previewSize: preview_1.Size.contain,\n    previewDraggable: true,\n    slideShow: true,\n    slideShowAutoStart: false,\n    slideShowInterval: 4000,\n    textColor: '#fff',\n    thumbnailHeight: '64px',\n    thumbnailHeightOnFullScreen: '128px',\n    thumbnailWidth: '64px',\n    thumbnailWidthOnFullScreen: '128px',\n    thumbnails: true,\n    thumbnailsFullScreen: true,\n    thumbnailsPosition: 'bottom',\n    thumbnailsVisible: true,\n    tooltipChangeSize: 'Change size',\n    tooltipSeeAllItems: 'See all items',\n    tooltipSeeOtherAlbums: 'See other albums',\n    tooltipSlideShowPause: 'Pause slide show',\n    tooltipSlideShowStart: 'Start slide show',\n    tooltipThumbnailsToggle: 'Toogle whumbnails',\n    transitionAnimateSliceHeight: false,\n    transitionAnimateSliceWidth: true,\n    transitionDetails: 1,\n    transitionDuration: 250,\n    transitionOpacity: false,\n    transitionOriginX: .5,\n    transitionOriginY: .5,\n    transitionXAxis: true,\n    transitionYAxis: false,\n    transitionEasingFunction: function (t) { return Math.sin(t * 1.5707963267948966); },\n};\nexports.default = defaults;\n\n\n//# sourceURL=webpack://JGallery/./src/gallery/defaults.ts?");
 
 /***/ }),
 
 /***/ "./src/gallery/index.ts":
+
 /*!******************************!*\
   !*** ./src/gallery/index.ts ***!
   \******************************/
