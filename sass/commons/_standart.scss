@@ -1,0 +1,96 @@
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: $color-black;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: $color-background-dark;
+  padding: 60px 0;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 1200px;
+
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  @media screen and (max-width: 1199px) {
+    padding: 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 0;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.section__fish {
+  padding-top: 0;
+}
+
+.section__pecul {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f9f8f4;
+  padding-top: 120px;
+  // @media screen and (min-width: 480px) and (max-width: 767px) {
+  //   width: 480px;
+  // }
+
+  // @media screen and (min-width: 768px) and (max-width: 1199) {
+  //   width: 768px;
+  // }
+
+  // @media screen and (min-width: 1200px) {
+  //   width: 1200px;
+  // }
+}
