@@ -1,24 +1,59 @@
 .pecul__list {
-  display: flex;
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 768px;
+    display: flex;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    display: flex;
+  }
+
 }
 .pecul__item {
   margin: 0 auto;
   padding: 0 auto;
   width: 250px;
-}
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+      margin: 0 auto;
+      justify-content: center;
+      width: 300px;
+  }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      &:not(:last-child) {
+        margin-right: 15px;
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+  }
 .pecul__title {
   text-transform: uppercase;
   box-sizing: content-box;
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 19px;
   text-align: center; 
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    margin-bottom: 20px;
+    font-size: 23px;
+}
 }
 .pecul__text {
   text-transform: uppercase;
   box-sizing: content-box;
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center; 
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    font-size: 21px;
+  }
 }
 .pecul__tumba {
   margin: 0 auto;
@@ -31,15 +66,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    width: 130px;
+    height: 130px;
+    margin-top: 40px;
+  }
 }
 .pecul__icons {
   width: 50px;
   height: 50px;
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    width: 90px;
+    height: 90px;
+  }
 }
-.pecul__item:not(:last-child) {
-  margin-right: 30px;
-}
-.pros-title {
+.pros__title {
   margin-bottom: 20px;
   font-weight: 1200;
   font-size: 54px;
@@ -49,8 +90,11 @@
   margin-bottom: 15px;
   text-align: center;
   color: #020202;
+ @media screen and (min-width:480px) and (max-width: 767px) {
+   font-size: 33px;
+ }
 }
-.pros-text {
+.pros__text {
   margin-bottom: 80px;
   font-weight: 400;
   font-size: 21px;
@@ -59,4 +103,7 @@
   text-transform: uppercase;
   text-align: center;
   color: #020202;
+  @media screen and (min-width:480px) and (max-width: 767px) {
+    font-size: 19px;
+  }
 }
